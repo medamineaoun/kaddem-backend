@@ -31,7 +31,7 @@ class DepartementRepositoryTest {
     @Test
     void shouldGetDepartementId(){
         Departement departement=departementRepository.findById(1).get();
-        assertEquals("Departement%",departement.getNomDepart());
+        assertEquals("aouina",departement.getNomDepart());
     }
 
     @Test
